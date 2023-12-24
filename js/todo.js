@@ -28,6 +28,7 @@ function paintTodo(newTodo) {
   li.id = newTodo.id;
   li.appendChild(span);
   li.appendChild(button);
+  span.style.margin = '10px';
   span.innerText = newTodo.text;
   toDoList.appendChild(li);
 }

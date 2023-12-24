@@ -1,12 +1,64 @@
+/*body {
+   background-color: beige; 
+}*/
 body {
-  background-color: beige;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+}
+
+#weather {
+  color: white;
+  font-size: 25pt;
+  text-align: end;
+}
+
+#login-form,
+#clock,
+#todo-form,
+#quote {
+  text-align: center;
+}
+
+#todo-form input {
+  height: 25px;
+  width: 300px;
+}
+
+ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+#clock {
+  font-size: 120pt;
 }
 
 h1 {
   color: cornflowerblue;
   transition: color 0.5s ease-in-out;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+#quote {
+  font-size: 25pt;
 }
 
 .active {
   color: tomato;
+}
+
+.hidden {
+  display: none;
 }

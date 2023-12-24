@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style_4.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Momemtum</title>
   </head>
   <body>
     <!-- <div class="hello">
       <h1>Grab me!</h1>
     </div> -->
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
     <form id="login-form" class="hidden">
       <input
         required
@@ -21,19 +25,19 @@
     </form>
     <h1 id="greeting" class="hidden"></h1>
     <h2 id="clock"></h2>
-    <script src="./js/clock.js"></script>
     <form id="todo-form">
       <input type="text" placeholder="Write a To Do and Press Enter" required />
     </form>
-    <ul id="todo-list"></ul>
+    <div class="wrap-ul-div">
+      <ul id="todo-list"></ul>
+    </div>
     <div id="quote">
       <span></span>
-      <span></span>
+      <br />
+      -<span></span>-
     </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
+
+    <script src="./js/clock.js"></script>
     <script src="./js/app_4.js"></script>
     <script src="./js/quotes.js"></script>
     <script src="./js/background.js"></script>
